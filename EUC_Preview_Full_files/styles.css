@@ -9,6 +9,10 @@ Document
 Use a better box model (opinionated).
 */
 
+body {
+    overflow-x: hidden;
+}
+
 *,
 ::before,
 ::after {
