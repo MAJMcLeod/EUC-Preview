@@ -9,8 +9,11 @@ Document
 Use a better box model (opinionated).
 */
 
+html,
 body {
     overflow-x: hidden;
+    position: relative;
+    height: 100%;
 }
 
 *,
